@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="COMMON SERVICE CENTRE, Palashdanga, Indas, Bankura, West Bengal. Online service assistance, form filling, printing and digital services.">
+<title>COMMON SERVICE CENTRE | Palashdanga</title>
+<style>
+:root{--navy:#0b3470;--blue:#1358b5;--green:#128348;--ink:#17243b;--muted:#5c6b80;--pale:#eef5ff;--line:#dbe5f2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,"Noto Sans Bengali","Nirmala UI",sans-serif;color:var(--ink);line-height:1.65;background:#f7faff}
+a{color:inherit}.topbar{background:#082957;color:#fff;font-size:.9rem;padding:8px 5%;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 3px 18px #0b347015}.nav{max-width:1160px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.logo{width:48px;height:48px;border-radius:14px;background:linear-gradient(135deg,var(--blue),var(--green));display:grid;place-items:center;color:white;font-weight:900;font-size:1.05rem;box-shadow:0 5px 14px #1358b530}.brand strong{display:block;color:var(--navy);font-size:1.05rem;line-height:1.25}.brand small{color:var(--muted)}
+nav{display:flex;gap:18px;flex-wrap:wrap}nav a{text-decoration:none;font-size:.92rem;font-weight:700;color:#34445d}nav a:hover{color:var(--blue)}
+.hero{background:radial-gradient(circle at 85% 20%,#2b79d8 0,transparent 32%),linear-gradient(125deg,#082957,#1358b5 72%,#0e8a60);color:#fff;padding:76px 22px 68px;overflow:hidden}.hero-inner{max-width:1160px;margin:auto;display:grid;grid-template-columns:1.4fr .8fr;align-items:center;gap:45px}
+.eyebrow{display:inline-block;border:1px solid #ffffff66;background:#ffffff16;padding:6px 13px;border-radius:999px;font-size:.88rem;letter-spacing:.03em}.hero h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.13;margin:18px 0 14px;letter-spacing:-.03em}.hero h1 span{color:#c5f7dc}.hero p{font-size:1.1rem;max-width:650px;color:#eaf2ff}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;border:0;border-radius:12px;padding:12px 18px;font-weight:800;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn-green{background:#19a763;color:white;box-shadow:0 8px 22px #05294a40}.btn-light{background:white;color:var(--navy)}.btn-outline{border:1px solid #ffffff80;color:white;background:#ffffff12}
+.hero-card{background:#ffffff12;border:1px solid #ffffff45;border-radius:24px;padding:26px;backdrop-filter:blur(8px);box-shadow:0 20px 50px #061f4530}.hero-card .big-icon{font-size:3rem}.hero-card h2{margin:8px 0;font-size:1.45rem}.hero-card p{font-size:.98rem;margin:6px 0;color:#f0f6ff}.pill-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:17px}.pill{font-size:.82rem;border-radius:999px;background:#ffffff1c;padding:6px 10px}
+.quick{max-width:1100px;margin:-27px auto 0;padding:0 22px;position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.quick-item{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 10px 25px #0b34700b;display:flex;gap:12px;align-items:center}.quick-icon{width:44px;height:44px;display:grid;place-items:center;border-radius:12px;background:var(--pale);font-size:1.4rem}.quick-item strong{display:block}.quick-item small{color:var(--muted)}
+section{padding:68px 22px}.container{max-width:1100px;margin:auto}.section-head{text-align:center;max-width:720px;margin:0 auto 32px}.section-head .kicker{color:var(--green);font-weight:800;text-transform:uppercase;letter-spacing:.1em;font-size:.82rem}.section-head h2{font-size:clamp(1.8rem,3vw,2.6rem);color:var(--navy);margin:8px 0}.section-head p{color:var(--muted);margin:0}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service{background:white;border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:0 8px 26px #0b347008}.service .icon{width:52px;height:52px;display:grid;place-items:center;background:#eaf2ff;border-radius:15px;font-size:1.65rem}.service h3{color:var(--navy);margin:15px 0 7px}.service p{color:var(--muted);font-size:.95rem;margin:0}.service ul{padding-left:20px;color:#33435a;font-size:.92rem}.notice{margin-top:22px;padding:14px 17px;background:#fff8e6;border:1px solid #f4df9c;border-radius:12px;color:#684d00;font-size:.9rem}
+.docs{background:#edf4ff}.doc-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.doc-box{background:white;border:1px solid var(--line);border-radius:18px;padding:25px}.doc-box h3{color:var(--navy);margin-top:0}.doc-box li{margin:8px 0}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.about-panel{background:linear-gradient(145deg,#0b3470,#1358b5);color:white;padding:30px;border-radius:22px}.about-panel h3{font-size:1.5rem;margin-top:0}.about-panel p{color:#e4edff}.check{list-style:none;padding:0}.check li{margin:12px 0}.check li:before{content:"✓";font-weight:900;color:#18a35e;margin-right:10px}
+.contact{background:#082957;color:white}.contact .section-head h2{color:white}.contact .section-head p{color:#d6e4ff}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.contact-card{background:#ffffff10;border:1px solid #ffffff30;border-radius:18px;padding:25px}.contact-card h3{margin-top:0}.contact-card p{color:#dce8ff}.phone-link{display:block;color:white;text-decoration:none;font-size:1.12rem;font-weight:800;margin:13px 0}.address{background:#ffffff10;padding:14px;border-radius:12px}
+footer{padding:22px;text-align:center;background:#061f40;color:#d1def3;font-size:.9rem}footer p{margin:5px}
+.floating{position:fixed;right:18px;bottom:18px;z-index:20;background:#19a763;color:white;text-decoration:none;border-radius:999px;padding:13px 18px;font-weight:800;box-shadow:0 10px 30px #062c1e40}
+@media(max-width:800px){.hero-inner{grid-template-columns:1fr}.hero{padding-top:52px}.hero-card{max-width:520px}.quick{grid-template-columns:1fr;margin-top:18px}.services{grid-template-columns:1fr 1fr}.about-grid,.contact-grid,.doc-grid{grid-template-columns:1fr}nav{gap:10px}.nav{align-items:flex-start;flex-direction:column}}
+@media(max-width:520px){.services{grid-template-columns:1fr}.topbar{font-size:.78rem}.hero h1{font-size:2.3rem}.actions .btn{width:100%}section{padding:52px 17px}.nav{padding:12px 17px}nav{font-size:.85rem}}
+</style>
+</head>
+<body>
+<div class="topbar"><span>📍 Palashdanga, Indas, Bankura, West Bengal – 722205</span><span>📞 9609611377 · 8327091908</span></div>
+<header><div class="nav">
+<a class="brand" href="#home"><span class="logo">CSC</span><span><strong>COMMON SERVICE CENTRE</strong><small>কমন সার্ভিস সেন্টার</small></span></a>
+<nav aria-label="Main navigation"><a href="#home">Home / হোম</a><a href="#services">Services / পরিষেবা</a><a href="#documents">Documents / নথি</a><a href="#about">About / পরিচিতি</a><a href="#contact">Contact / যোগাযোগ</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="hero-inner">
+<div><span class="eyebrow">YOUR LOCAL DIGITAL SERVICE CENTRE</span>
+<h1>আপনার অনলাইন পরিষেবা,<br><span>এখন আরও সহজ!</span></h1>
+<p><strong>COMMON SERVICE CENTRE</strong> — আপনার প্রয়োজনীয় অনলাইন পরিষেবা, আবেদনপত্র পূরণ এবং ডিজিটাল পরিষেবা সংক্রান্ত সহায়তার জন্য যোগাযোগ করুন।</p>
+<p>Your local destination for online service assistance, form filling and digital service information.</p>
+<div class="actions"><a class="btn btn-green" href="https://wa.me/919609611377" target="_blank" rel="noopener">✆ WhatsApp Us</a><a class="btn btn-light" href="#services">Explore Services / পরিষেবা দেখুন</a></div>
+</div>
+<div class="hero-card"><div class="big-icon">🖥️</div><h2>Digital Services, Made Simple</h2><p>সহজ, পরিষ্কার ও সহায়ক অনলাইন পরিষেবা।</p><div class="pill-row"><span class="pill">Online Assistance</span><span class="pill">Form Filling</span><span class="pill">Print & Scan</span><span class="pill">Application Help</span></div></div>
+</div></section>
+<div class="quick">
+<div class="quick-item"><span class="quick-icon">📍</span><span><strong>Local Service Centre</strong><small>Palashdanga, Bankura</small></span></div>
+<div class="quick-item"><span class="quick-icon">💬</span><span><strong>WhatsApp Enquiry</strong><small>Contact us before visiting</small></span></div>
+<div class="quick-item"><span class="quick-icon">🧾</span><span><strong>Online Assistance</strong><small>Service information & form help</small></span></div>
+</div>
+<section id="services"><div class="container"><div class="section-head"><div class="kicker">OUR SERVICES / আমাদের পরিষেবা</div><h2>আপনার প্রয়োজনীয় পরিষেবা</h2><p>Choose a service category and contact us to confirm availability, eligibility and required documents.</p></div>
+<div class="services">
+<article class="service"><div class="icon">🪪</div><h3>Government Documents</h3><p>সরকারি নথিপত্র সংক্রান্ত সহায়তা</p><ul><li>PAN Card application assistance</li><li>Voter ID registration or correction assistance</li><li>Ration Card application or correction assistance</li><li>Aadhaar-related assistance, where available</li></ul></article>
+<article class="service"><div class="icon">📄</div><h3>Certificates & Applications</h3><p>সার্টিফিকেট ও অনলাইন আবেদন</p><ul><li>Income Certificate application assistance</li><li>Online form filling</li><li>Application status checking, where supported</li><li>Document preparation guidance</li></ul></article>
+<article class="service"><div class="icon">🌾</div><h3>Government Schemes</h3><p>সরকারি প্রকল্প সংক্রান্ত তথ্য</p><ul><li>Pension-related application assistance</li><li>Farmer scheme information</li><li>Scheme eligibility information</li><li>Available public-service assistance</li></ul></article>
+<article class="service"><div class="icon">🖨️</div><h3>Computer & Print Services</h3><p>কম্পিউটার ও প্রিন্টিং পরিষেবা</p><ul><li>Printing and scanning</li><li>Document typing</li><li>Online form support</li><li>Digital document assistance</li></ul></article>
+<article class="service"><div class="icon">🚆</div><h3>Online Booking Assistance</h3><p>অনলাইন বুকিং সংক্রান্ত সহায়তা</p><ul><li>Booking information and assistance</li><li>Availability depends on service rules</li><li>Customer guidance before booking</li></ul></article>
+<article class="service"><div class="icon">🤝</div><h3>Customer Support</h3><p>গ্রাহক সহায়তা</p><ul><li>Required-document guidance</li><li>Service availability enquiry</li><li>Application process information</li><li>Contact us for details</li></ul></article>
+</div>
+<div class="notice"><strong>Important / গুরুত্বপূর্ণ:</strong> পরিষেবা, যোগ্যতা, ফি এবং প্রয়োজনীয় নথি সরকারি নিয়ম অনুযায়ী পরিবর্তিত হতে পারে। নির্দিষ্ট পরিষেবা পাওয়া যাবে কি না, আগে যোগাযোগ করে নিশ্চিত করুন। This is an independent service-centre website, not an official government website. Government applications are subject to the relevant portal and rules.</div>
+</div></section>
+<section class="docs" id="documents"><div class="container"><div class="section-head"><div class="kicker">BE PREPARED / আগে থেকে প্রস্তুত থাকুন</div><h2>প্রয়োজনীয় নথিপত্র</h2><p>Documents differ by service. Contact us to confirm the latest requirements before visiting.</p></div>
+<div class="doc-grid"><div class="doc-box"><h3>সাধারণভাবে লাগতে পারে</h3><ul><li>আধার কার্ড বা প্রযোজ্য পরিচয়পত্র</li><li>সক্রিয় মোবাইল নম্বর</li><li>পরিষেবা অনুযায়ী প্রাসঙ্গিক নথি</li><li>প্রয়োজন হলে আবেদনপত্র বা রেফারেন্স নম্বর</li></ul></div><div class="doc-box"><h3>General guidance</h3><ul><li>Aadhaar or another accepted identity document, where applicable</li><li>Active mobile number</li><li>Supporting documents for the selected service</li><li>Application/reference number, if checking status</li></ul></div></div></div></section>
+<section id="about"><div class="container about-grid"><div><div class="section-head" style="text-align:left;margin:0 0 18px"><div class="kicker">ABOUT US / আমাদের সম্পর্কে</div><h2>আপনার এলাকার অনলাইন পরিষেবা কেন্দ্র</h2></div><p>COMMON SERVICE CENTRE, পালাশডাঙ্গা, ইন্দাস, বাঁকুড়া, পশ্চিমবঙ্গ থেকে গ্রাহকদের অনলাইন পরিষেবা সম্পর্কে তথ্য ও আবেদন সহায়তা দেওয়ার উদ্দেশ্যে তৈরি এই ওয়েবসাইট।</p><p>COMMON SERVICE CENTRE is a local service centre in Palashdanga, Indas, Bankura, West Bengal, offering information and assistance for selected online services.</p><ul class="check"><li>সহজ যোগাযোগ / Easy contact</li><li>পরিষেবা সম্পর্কে তথ্য / Service information</li><li>বাংলা ও ইংরেজি ভাষায় তথ্য / Bengali and English information</li></ul></div>
+<div class="about-panel"><h3>আমাদের সঙ্গে যোগাযোগ করুন</h3><p>আপনার প্রয়োজনীয় পরিষেবা, প্রযোজ্য নথি এবং পরিষেবা উপলব্ধতা সম্পর্কে আগে জেনে নিন।</p><p>Contact us to confirm service availability, applicable documents and any official charges before proceeding.</p><a class="btn btn-light" href="#contact">Contact Details / যোগাযোগ</a></div></div></section>
+<section class="contact" id="contact"><div class="container"><div class="section-head"><div class="kicker" style="color:#7ce3ae">GET IN TOUCH / যোগাযোগ করুন</div><h2>আমরা আপনাকে সহায়তা করতে প্রস্তুত</h2><p>Call or message us for service details. Please do not send OTPs or passwords.</p></div>
+<div class="contact-grid"><div class="contact-card"><h3>📞 Call / WhatsApp</h3><p>আপনার সুবিধামতো নম্বরে যোগাযোগ করুন।</p><a class="phone-link" href="tel:+919609611377">☎ 9609611377</a><a class="btn btn-green" href="https://wa.me/919609611377" target="_blank" rel="noopener">WhatsApp Number 1</a><a class="phone-link" href="tel:+918327091908">☎ 8327091908</a><a class="btn btn-outline" href="https://wa.me/918327091908" target="_blank" rel="noopener">WhatsApp Number 2</a></div>
+<div class="contact-card"><h3>📍 Address / ঠিকানা</h3><div class="address"><strong>COMMON SERVICE CENTRE</strong><p>PALASHDANGA, ROL, INDAS,<br>BANKURA, WEST BENGAL – 722205</p><p>পালাশডাঙ্গা, ইন্দাস, বাঁকুড়া, পশ্চিমবঙ্গ – ৭২২২০৫</p></div><p>Opening hours: Please call to confirm.</p></div></div></div></section>
+</main>
+<footer><p><strong>COMMON SERVICE CENTRE</strong> · Palashdanga, Indas, Bankura, West Bengal – 722205</p><p>Independent service centre. Not an official government website unless explicitly authorized.</p><p>© <span id="year"></span> COMMON SERVICE CENTRE. All rights reserved.</p></footer>
+<a class="floating" href="https://wa.me/919609611377" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">✆ WhatsApp</a>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
